@@ -89,19 +89,14 @@ void C第六周课堂实验题一View::OnFileOpen()
 	GetClientRect(&rc);
 	CFileDialog cfd(true);
 	int r = cfd.DoModal();
-	
-	
-	CClientDC dc(this);int sx, sy;
+	CClientDC dc(this);
+	int sx, sy;
 	CImage image;
 	if (r == IDOK) {
 		CString filename = cfd.GetPathName();
-		
 		image.Load(filename);
-		
 		sx = (rc.Width() - image.GetWidth()) / 2;
 		sy = (rc.Height() - image.GetHeight()) / 2;
-		
-
 
 
 	}
