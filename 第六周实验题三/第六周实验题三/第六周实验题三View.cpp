@@ -118,10 +118,8 @@ void C第六周实验题三View::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
 	CClientDC dc(this);
 	TEXTMETRIC tm;
 	dc.GetTextMetrics(&tm);
-	CString temp;
 	line.AppendChar(nChar);
-	temp.AppendChar(nChar);
-	
+	c = dc.GetTextExtent(line);
 	
 	if (c.cx>=(rc.right - rc.left)&&(c.cy<rc.Height()))
 	{
