@@ -1,0 +1,4 @@
+﻿  MFCApplication1View.cpp
+c:\mfc实验\第七周实验题三\mfcapplication1\mfcapplication1view.cpp(116): warning C4101: “n”: 未引用的局部变量
+  MFCApplication1.vcxproj -> C:\MFC实验\第七周实验题三\Debug\MFCApplication1.exe
+  MFCApplication1.vcxproj -> C:\MFC实验\第七周实验题三\Debug\MFCApplication1.pdb (Full PDB)
