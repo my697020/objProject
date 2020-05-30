@@ -13,11 +13,10 @@ protected: // 仅从序列化创建
 	DECLARE_DYNCREATE(C第九周课堂实验题一Doc)
 
 // 特性
-public:
+public:CString name;
 
 // 操作
 public:
-	CString name;
 
 // 重写
 public:

@@ -118,7 +118,7 @@ BEGIN
         MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1, GRAYED
         MENUITEM SEPARATOR
         MENUITEM "退出(&X)",                      ID_APP_EXIT
-        MENUITEM "存入abc.txt文件",                 ID_32771
+        MENUITEM "读取路径",                        ID_32771
     END
     POPUP "编辑(&E)"
     BEGIN

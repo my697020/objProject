@@ -11,9 +11,9 @@
 
 #include "第九周课堂实验题一Doc.h"
 #include "第九周课堂实验题一View.h"
-#include<string>
 #include<iostream>
 #include<fstream>
+#include<string>
 using namespace std;
 
 #ifdef _DEBUG
@@ -93,8 +93,7 @@ void C第九周课堂实验题一View::On32771()
 	CFileDialog dlg(true);
 	int r = dlg.DoModal();
 	if (r == IDOK) {
-		pDoc->name = dlg.GetPathName(); 
-		
+		pDoc->name = dlg.GetPathName();
 		Invalidate();
 	}
 }

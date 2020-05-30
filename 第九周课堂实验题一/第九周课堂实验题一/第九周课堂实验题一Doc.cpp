@@ -31,6 +31,7 @@ C第九周课堂实验题一Doc::C第九周课堂实验题一Doc()
 {
 	// TODO: 在此添加一次性构造代码
 	name = _T("");
+
 }
 
 C第九周课堂实验题一Doc::~C第九周课堂实验题一Doc()
@@ -63,7 +64,7 @@ void C第九周课堂实验题一Doc::Serialize(CArchive& ar)
 	else
 	{
 		// TODO: 在此添加加载代码
-		ar>>name  ;
+		ar >> name;
 	}
 }
 
